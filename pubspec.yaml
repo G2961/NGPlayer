@@ -20,7 +20,7 @@ dependencies:
 
   # Audio
   just_audio: ^0.9.38
-  audio_service: ^0.18.13
+
 
   # Images
   cached_network_image: ^3.3.1
