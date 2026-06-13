@@ -1,0 +1,39 @@
+name: ngmusic
+description: Newgrounds Audio Portal client
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Networking / parsing
+  http: ^1.2.1
+  html: ^0.15.4          # аналог Jsoup — парсинг HTML
+
+  # Audio
+  just_audio: ^0.9.38
+  audio_service: ^0.18.13
+
+  # Images
+  cached_network_image: ^3.3.1
+
+  # Utils
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
